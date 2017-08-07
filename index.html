@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+	<title>Presentation Template</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="template">
+
+  <div class="topnav">
+    <span class="lesson">Lesson1</span>
+    <nav class="top">
+      <span class="activity">Activity</span>
+      <li><a href="" class="active">1</a></li>
+      <li><a href="" >2</a></li>
+      <li><a href="" >3</a></li>
+    </nav>
+  </div>
+
+  <div class="nav">
+  	<a href=""><img src="bt_left.png"></a>
+  	<h5>1/3</h5>
+  	<a href=""><img src="bt_right.png"></a>
+  </div>
+
+  <div class="presentation">
+  	<div class="square left" id="left">
+      <button class="on" id="audio_left"></button>
+      <audio id="beep" controls="controls" preload="auto">
+        <source src="https://css-tricks.com/examples/SoundOnHover/audio/beep.mp3"></source>
+      </audio>
+    </div>
+    <div class="square right"></div>
+    <div class="overlay" id="overlay"></div>
+    <button class="preview" id="view"></button>
+  </div>
+
+
+
+  <div class="mark">
+  	<button id="brush"><img src="bt_brush.png"></button>
+  	<div class="colors" id="colorBoard"></div>
+  </div>
+
+  <script src='http://code.jquery.com/jquery-latest.min.js'></script>
+
+  <script src="index.js"></script>
+
+</body>
